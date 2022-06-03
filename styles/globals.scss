@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, sans-serif;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2 !important;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a {
@@ -15,5 +15,32 @@ a {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   outline: none;
-  font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.content {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+
+  &--full {
+    max-width: 1000px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-layout-white {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 680px;
 }
